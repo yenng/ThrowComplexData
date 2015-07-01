@@ -1,0 +1,29 @@
+---
+:source:
+  :path: test
+  :file: test_main.c
+:successes:
+- :test: test_doThing
+  :line: 11
+  :message: ''
+- :test: test_specialAdd_given_minus5_and_11_should_return_6
+  :line: 24
+  :message: ''
+- :test: test_specialAdd_given_5_and_11_should_return_16
+  :line: 29
+  :message: ''
+- :test: test_specialAdd_given_minus5_and_51_should_return_16
+  :line: 57
+  :message: ''
+:failures:
+- :test: test_specialAdd_given_minus5_and_minus11_should_return_16
+  :line: 50
+  :message: Expected 'posVal  is not positive!' Was 'posVal is not positive!'
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 4
+  :failed: 1
+  :ignored: 0
+:stdout:
+- ''
